@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rich editor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+    <div class="mainContainer">
+    <button onclick="bold()">B</button>
+    <button onclick="italic()">I</button>
+    <button onclick="under()">U</button>
+    <select name="dropdown" id="color"name="color" onchange="color()">
+       <option value="">Color</option>
+       <option value="#1a5e99" class="blue">Blue</option>
+       <option value="#008000" class="green">Green</option>
+       <option value="#ffff00" class="yellow">Yellow</option>
+       <option value="#ffc0cb" class="pink">pink</option>
+       <option value="white" class="white">White</option>
+       <option value="black" class="black">Black</option>
+       <option value="brown" class="brown">Brown</option>
+    <option value="chocolate" class="chocolate">Chocol</option>
+    </select>
+    <select name="dropdown" id="backGround"name="color" onchange="backGround()">
+        <option value="blue">BackColor</option>
+        <option value="blue" class="blue">Blue</option>
+        <option value="green" class="green">Green</option>
+        <option value="yellow" class="yellow">Yellow</option>
+        <option value="pink" class="pink">pink</option>
+        <option value="white" class="white">White</option>
+        <option value="black" class="black">Black</option>
+        <option value="brown" class="brown">Brown</option>
+     <option value="chocolate" class="chocolate">Chocol</option>
+ 
+     </select>
+     <select name="dropdown" id="fontSize"name="color" onchange="fontSize()">
+        <option value="blue">FontSize</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+     <option value="8">8</option>
+     </select>
+     <select name="dropdown" id="Faimely"name="color" onchange="Faimely()">
+        <option value="blue">FontFaimaly</option>
+        <option value="Arial">Arial</option>
+        <option value="Arial Black">Arial Black</option>
+        <option value="comic snas MS">comic snas MS</option>
+        <option value="Tahoma">Tahoma</option>
+        <option value="Impact">Impact</option>
+        <option value="Verdana">Verdana</option>
+        <option value="Sans-sarif">Sans-sarif</option>
+     <option value="Times New Roman">Times New Roman</option>
+     </select>
+    </div>
+   <div class="editable-content" id="text" contenteditable="true">umar khan
+  </div>
+    </header>
+    <script src="app.js"></script>
+</body>
+</html>

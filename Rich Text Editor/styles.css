@@ -1,0 +1,51 @@
+body{
+    background-color: white;
+}
+.mainContainer{
+    background-color:white;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border: 2px black solid;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 10px;    
+}.drop{
+    display: flex;
+    justify-content: space-between;
+}
+
+.blue{
+    color: blue;
+}.green{
+    color: green;
+}.yellow{
+    color: yellow;
+}.pink{
+    color: pink;
+}.white{
+    color: white;
+}.black{
+    color: black;
+}.brown{
+    color: brown;
+}.chocolate{
+    color: chocolate;
+}header{
+    border: 2px black solid;
+    box-shadow: 0 0 5px black ;
+}.editable-content {
+    border: 1px solid #ccc;
+    padding: 10px;
+    min-height: 500px;
+    font-family: Arial, sans-serif;
+    border: none;
+    outline: none;
+  }button{
+    border: none;
+    outline: none;
+    background-color: white;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+  }
